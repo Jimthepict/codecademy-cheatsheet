@@ -1,0 +1,1091 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../Fonts/Ubuntu-Regular.ttf); 
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../Fonts/Ubuntu-Italic.ttf);
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../Fonts/Raleway-Regular.ttf); 
+    format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+body {
+    background-color: rgb(235, 220, 211);
+}
+
+h1 {
+    font-family: "Ubuntu", serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 20px;
+    margin: 0.3rem auto;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(235, 220, 211);
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    position:sticky;
+    top: 0px;
+    background-color: rgb(235, 220, 211);
+}
+
+table {
+    width: 70%;
+    border: 0px solid darkblue;
+    border-radius: 10px;
+    margin: 5px auto 60px;
+    
+    }
+
+ul {
+    text-align: center;
+}
+
+li {
+    font-family: "Ubuntu", serif;
+    font-size: 0.8rem;
+    border: 1px solid rgba(108, 52, 40, 0.4);
+    border-radius: 5px;
+    width: 70px;
+    background-color: rgba(179, 164, 146, 0.8);
+    padding: 2px;
+    margin: 10px auto;
+    display: inline-block;
+    color: black;
+}
+
+li:hover {
+    background-color: rgba(214, 199, 174, 0.5);
+}
+
+li a {
+    font-family: "Ubuntu", serif;
+    text-decoration: none;
+    color: black;
+}
+
+li a:visited {
+    color: black;
+}
+
+th {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 5px;
+    background-color: rgba(213, 189, 175, 0.8);
+    font-family: "Ubuntu", serif;
+}
+
+td {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
+    background-color: rgba(214, 199, 174, 0.2);
+}
+
+.shape {
+    border-radius: 50%;
+}
+
+.link {
+    background-color: rgb(235, 220, 211);
+    border: 0px solid rgb(235, 220, 211);
+    color: rgb(235, 220, 211);
+}
+
+.blend {
+    background-color: rgb(235, 220, 211);
+    border: 0px solid rgb(235, 220, 211);
+}
+
+tfoot {
+    background-color: rgba(213, 189, 175, 0.8);
+}
+
+tfoot td {
+    background-color: rgba(213, 189, 175, 0.8);
+}
+
+a {
+    font-family: "Ubuntu Italic", sans-serif;
+    font-size: 0.7rem;
+    color: rgba(108, 52, 40, 1);
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: rgb(186, 112, 79);
+}
+
+a:visited {
+        color: rgb(34, 102, 141);
+}
+
+footer {
+    height: 150px;
+    margin: auto;
+}
+
+footer p {
+        text-align: center;
+        padding: 10px;
+}
+
+footer a {
+    font-size: 1rem;
+}
+
+/*Start of the YELLOW colours group*/
+#darkkhaki {
+    background-color: darkkhaki;
+    width: 80px;
+    height: 80px;
+}
+
+#khaki {
+    background-color: khaki;
+    width: 80px;
+    height: 80px;
+}
+
+#lemonchiffon {
+    background-color: lemonchiffon;
+    width: 80px;
+    height: 80px;
+}
+
+#lightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+    width: 80px;
+    height: 80px;
+}
+#lightyellow {
+    background-color: lightyellow;
+    width: 80px;
+    height: 80px;
+}
+
+#moccasin {
+    background-color: moccasin;
+    width: 80px;
+    height: 80px;
+}
+
+#palegoldenrod {
+    background-color: palegoldenrod;
+    width: 80px;
+    height: 80px;
+}
+
+#papayawhip {
+    background-color: papayawhip;
+    width: 80px;
+    height: 80px;
+}
+
+#peachpuff {
+    background-color: peachpuff;
+    width: 80px;
+    height: 80px;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the RED colours group*/
+#crimson {
+    background-color: crimson;
+    width: 80px;
+    height: 80px;
+}
+
+#darkred {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+}
+
+#darksalmon {
+    background-color: darksalmon;
+    width: 80px;
+    height: 80px;
+}
+
+#firebrick {
+    background-color: firebrick;
+    width: 80px;
+    height: 80px;
+}
+
+#indianred {
+    background-color: indianred;
+    width: 80px;
+    height: 80px;
+}
+
+#lightcoral {
+    background-color: lightcoral;
+    width: 80px;
+    height: 80px;
+}
+
+#lightsalmon {
+    background-color: lightsalmon;
+    width: 80px;
+    height: 80px;
+}
+
+#red {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+}
+
+#salmon {
+    background-color: salmon;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the PURPLE colours group*/
+#darkmagenta {
+    background-color: darkmagenta;
+    width: 80px;
+    height: 80px;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+    width: 80px;
+    height: 80px;
+}
+
+#darkslateblue {
+    background-color: darkslateblue;
+    width: 80px;
+    height: 80px;
+}
+
+#darkviolet {
+    background-color: darkviolet;
+    width: 80px;
+    height: 80px;
+}
+
+#fuchsia {
+    background-color: fuchsia;
+    width: 80px;
+    height: 80px;
+}
+
+#indigo {
+    background-color: indigo;
+    width: 80px;
+    height: 80px;
+}
+
+#lavender {
+    background-color: lavender;
+    width: 80px;
+    height: 80px;
+}
+
+#magenta {
+    background-color: magenta;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumorchid {
+    background-color: mediumorchid;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumpurple {
+    background-color: mediumpurple;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumslateblue {
+    background-color: mediumslateblue;
+    width: 80px;
+    height: 80px;
+}
+
+#orchid {
+    background-color: orchid;
+    width: 80px;
+    height: 80px;
+}
+
+#plum {
+    background-color: plum;
+    width: 80px;
+    height: 80px;
+}
+
+#purple {
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+}
+
+#rebeccapurple {
+    background-color: rebeccapurple;
+    width: 80px;
+    height: 80px;
+}
+
+#slateblue {
+    background-color: slateblue;
+    width: 80px;
+    height: 80px;
+}
+
+#thistle {
+    background-color: thistle;
+    width: 80px;
+    height: 80px;
+}
+
+#violet {
+    background-color: violet;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the Pink colours group*/
+#deeppink {
+    background-color: deeppink;
+    width: 80px;
+    height: 80px;
+}
+
+#hotpink {
+    background-color: hotpink;
+    width: 80px;
+    height: 80px;
+}
+
+#lightpink {
+    background-color: lightpink;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumvioletred {
+    background-color: mediumvioletred;
+    width: 80px;
+    height: 80px;
+}
+
+#palevioletred {
+    background-color: palevioletred;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the ORANGE colours group*/
+#pink {
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+}
+
+#coral {
+    background-color: coral;
+    width: 80px;
+    height: 80px;
+}
+
+#darkorange {
+    background-color: darkorange;
+    width: 80px;
+    height: 80px;
+}
+
+#gold {
+    background-color: gold;
+    width: 80px;
+    height: 80px;
+}
+
+#orange{
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+}
+
+#orangered{
+    background-color: orangered;
+    width: 80px;
+    height: 80px;
+}
+
+#tomato {
+    background-color: tomato;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the Green colours group*/
+#chartreuse {
+    background-color: chartreuse;
+    width: 80px;
+    height: 80px;
+}
+
+#darkgreen {
+    background-color: darkgreen;
+    width: 80px;
+    height: 80px;
+}
+
+#darkolivegreen {
+    background-color: darkolivegreen;
+    width: 80px;
+    height: 80px;
+}
+
+#darkseagreen {
+    background-color: darkseagreen;
+    width: 80px;
+    height: 80px;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+    width: 80px;
+    height: 80px;
+}
+
+#green {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+}
+
+#greenyellow {
+    background-color: greenyellow;
+    width: 80px;
+    height: 80px;
+}
+
+#lawngreen {
+    background-color: lawngreen;
+    width: 80px;
+    height: 80px;
+}
+
+#lightgreen {
+    background-color: lightgreen;
+    width: 80px;
+    height: 80px;
+}
+
+#lime {
+    background-color: lime;
+    width: 80px;
+    height: 80px;
+}
+
+#limegreen {
+    background-color: limegreen;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumseagreen {
+    background-color: mediumseagreen;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumspringgreen {
+    background-color: mediumspringgreen;
+    width: 80px;
+    height: 80px;
+}
+
+#olive {
+    background-color: olive;
+    width: 80px;
+    height: 80px;
+}
+
+#olivedrab {
+    background-color: olivedrab;
+    width: 80px;
+    height: 80px;
+}
+
+#palegreen {
+    background-color: palegreen;
+    width: 80px;
+    height: 80px;
+}
+
+#seagreen {
+    background-color: seagreen;
+    width: 80px;
+    height: 80px;
+}
+
+#springgreen {
+    background-color: springgreen;
+    width: 80px;
+    height: 80px;
+}
+
+#yellowgreen {
+    background-color: yellowgreen;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the GRAY colours group*/
+#aliceblue {
+    background-color: aliceblue;
+    width: 80px;
+    height: 80px;
+}
+
+#antiquewhite {
+    background-color: antiquewhite;
+    width: 80px;
+    height: 80px;
+}
+
+#azure {
+    background-color: azure;
+    width: 80px;
+    height: 80px;
+}
+
+#beige {
+    background-color: beige;
+    width: 80px;
+    height: 80px;
+}
+
+#black {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+}
+
+#darkgrey {
+    background-color: darkgrey;
+    width: 80px;
+    height: 80px;
+}
+
+#darkslategray {
+    background-color: darkslategray;
+    width: 80px;
+    height: 80px;
+}
+
+#darkslategrey {
+    background-color: darkslategrey;
+    width: 80px;
+    height: 80px;
+}
+
+#darkgray {
+    background-color: darkslategray;
+    width: 80px;
+    height: 80px;
+}
+
+#darkslategrey {
+    background-color: darkslategrey;
+    width: 80px;
+    height: 80px;
+}
+
+#dimgray {
+    background-color: dimgray;
+    width: 80px;
+    height: 80px;
+}
+
+#dimgrey {
+    background-color: dimgrey;
+    width: 80px;
+    height: 80px;
+}
+
+#floralwhite {
+    background-color: floralwhite;
+    width: 80px;
+    height: 80px;
+}
+
+#gainsboro {
+    background-color: gainsboro;
+    width: 80px;
+    height: 80px;
+}
+
+#ghostwhite {
+    background-color: ghostwhite;
+    width: 80px;
+    height: 80px;
+}
+
+#gray {
+    background-color: gray;
+    width: 80px;
+    height: 80px;
+}
+
+#grey {
+    background-color: grey;
+    width: 80px;
+    height: 80px;
+}
+
+#honeydew {
+    background-color: honeydew;
+    width: 80px;
+    height: 80px;
+}
+
+#ivory {
+    background-color: ivory;
+    width: 80px;
+    height: 80px;
+}
+
+#lavenderblush {
+    background-color: lavenderblush;
+    width: 80px;
+    height: 80px;
+}
+
+#lightgray {
+    background-color: lightgray;
+    width: 80px;
+    height: 80px;
+}
+
+#lightgrey {
+    background-color: lightgrey;
+    width: 80px;
+    height: 80px;
+}
+
+#lightslategray {
+    background-color: lightslategray;
+    width: 80px;
+    height: 80px;
+}
+
+#lightslategrey {
+    background-color: lightslategrey;
+    width: 80px;
+    height: 80px;
+}
+
+#linen {
+    background-color: linen;
+    width: 80px;
+    height: 80px;
+}
+
+#mintcream {
+    background-color: mintcream;
+    width: 80px;
+    height: 80px;
+}
+
+#mistyrose {
+    background-color: mistyrose;
+    width: 80px;
+    height: 80px;
+}
+
+#navajowhite {
+    background-color: navajowhite;
+    width: 80px;
+    height: 80px;
+}
+
+#oldlace {
+    background-color: oldlace;
+    width: 80px;
+    height: 80px;
+}
+
+#seashell {
+    background-color: seashell;
+    width: 80px;
+    height: 80px;
+}
+
+#silver {
+    background-color: silver;
+    width: 80px;
+    height: 80px;
+}
+
+#slategray {
+    background-color: slategray;
+    width: 80px;
+    height: 80px;
+}
+
+#slategrey {
+    background-color: slategray;
+    width: 80px;
+    height: 80px;
+}
+
+#snow {
+    background-color: snow;
+    width: 80px;
+    height: 80px;
+}
+
+#white {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+}
+
+#whitesmoke {
+    background-color: whitesmoke;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the CYAN colours group*/
+#cadetblue {
+    background-color: cadetblue;
+    width: 80px;
+    height: 80px;
+}
+
+#cyan {
+    background-color: cyan;
+    width: 80px;
+    height: 80px;
+}
+
+#darkcyan {
+    background-color: darkcyan;
+    width: 80px;
+    height: 80px;
+}
+
+#lightcyan {
+    background-color: lightcyan;
+    width: 80px;
+    height: 80px;
+}
+
+#teal {
+    background-color: teal;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the Brown colours group*/
+#bisque {
+    background-color: bisque;
+    width: 80px;
+    height: 80px;
+}
+
+#blanchedalmond {
+    background-color: blanchedalmond;
+    width: 80px;
+    height: 80px;
+}
+
+#brown {
+    background-color: brown;
+    width: 80px;
+    height: 80px;
+}
+
+#burlywood {
+    background-color: burlywood;
+    width: 80px;
+    height: 80px;
+}
+
+#chocolate {
+    background-color: chocolate;
+    width: 80px;
+    height: 80px;
+}
+
+#cornsilk {
+    background-color: cornsilk;
+    width: 80px;
+    height: 80px;
+}
+
+#darkgoldenrod {
+    background-color: darkgoldenrod;
+    width: 80px;
+    height: 80px;
+}
+
+#goldenrod {
+    background-color: goldenrod;
+    width: 80px;
+    height: 80px;
+}
+
+#maroon {
+    background-color: maroon;
+    width: 80px;
+    height: 80px;
+}
+
+#peru {
+    background-color: peru;
+    width: 80px;
+    height: 80px;
+}
+
+#rosybrown {
+    background-color: rosybrown;
+    width: 80px;
+    height: 80px;
+}
+
+#saddlebrown {
+    background-color: saddlebrown;
+    width: 80px;
+    height: 80px;
+}
+
+#sandybrown {
+    background-color: sandybrown;
+    width: 80px;
+    height: 80px;
+}
+
+#sienna {
+    background-color: sienna;
+    width: 80px;
+    height: 80px;
+}
+
+#tan {
+    background-color: tan;
+    width: 80px;
+    height: 80px;
+}
+
+#wheat {
+    background-color: wheat;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the Blue colours group*/
+#blue {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+}
+
+#blueviolet {
+    background-color: blueviolet;
+    width: 80px;
+    height: 80px;
+}
+
+#cornflowerblue {
+    background-color: cornflowerblue;
+    width: 80px;
+    height: 80px;
+}
+
+#darkblue {
+    background-color: darkblue;
+    width: 80px;
+    height: 80px;
+}
+
+#deepskyblue {
+    background-color: deepskyblue;
+    width: 80px;
+    height: 80px;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
+    width: 80px;
+    height: 80px;
+}
+
+#lightblue {
+    background-color: lightblue;
+    width: 80px;
+    height: 80px;
+}
+
+#lightskyblue {
+    background-color: lightskyblue;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumblue {
+    background-color: mediumblue;
+    width: 80px;
+    height: 80px;
+}
+
+#midnightblue {
+    background-color: midnightblue;
+    width: 80px;
+    height: 80px;
+}
+
+#navy {
+    background-color: navy;
+    width: 80px;
+    height: 80px;
+}
+
+#powderblue {
+    background-color: powderblue;
+    width: 80px;
+    height: 80px;
+}
+
+#royalblue {
+    background-color: royalblue;
+    width: 80px;
+    height: 80px;
+}
+
+#skyblue {
+    background-color: skyblue;
+    width: 80px;
+    height: 80px;
+}
+
+#steelblue {
+    background-color: steelblue;
+    width: 80px;
+    height: 80px;
+}
+
+#lightsteelblue {
+    background-color: lightsteelblue;
+    width: 80px;
+    height: 80px;
+}
+
+/*Start of the Aqua colours group*/
+#aqua {
+    background-color: aqua;
+    width: 80px;
+    height: 80px;
+}
+
+#aquamarine {
+    background-color: aquamarine;
+    width: 80px;
+    height: 80px;
+}
+
+#darkturquoise {
+    background-color: darkturquoise;
+    width: 80px;
+    height: 80px;
+}
+
+#lightseagreen {
+    background-color: lightseagreen;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumaquamarine {
+    background-color: mediumaquamarine;
+    width: 80px;
+    height: 80px;
+}
+
+#mediumturquoise {
+    background-color: mediumturquoise;
+    width: 80px;
+    height: 80px;
+}
+
+#paleturquoise {
+    background-color: paleturquoise;
+    width: 80px;
+    height: 80px;
+}
+
+#turquoise {
+    background-color: turquoise;
+    width: 80px;
+    height: 80px;
+}
