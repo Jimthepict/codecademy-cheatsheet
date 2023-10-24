@@ -154,6 +154,8 @@ tr:nth-child(even) {
 .blend {
     background-color: rgb(235, 220, 211);
     border: 0px solid rgb(235, 220, 211);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.7) inset, 
+    0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset;
 }
 
 tfoot {
