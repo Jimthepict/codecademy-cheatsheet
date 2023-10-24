@@ -133,6 +133,10 @@ td {
     background-color: rgba(214, 199, 174, 0.2);
 }
 
+tr:nth-child(even) {
+    background-color: rgba(179, 164, 146, 0.4);
+}
+
 .shape {
     border-radius: 50%;
 }
