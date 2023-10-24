@@ -111,6 +111,11 @@ li a:visited {
     color: black;
 }
 
+li:active {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.7) inset, 
+    0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset;
+}
+
 th {
     border: 1px solid darkblue;
     border-radius: 5px;
