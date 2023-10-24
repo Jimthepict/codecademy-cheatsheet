@@ -93,6 +93,8 @@ li {
     margin: 10px auto;
     display: inline-block;
     color: black;
+    box-shadow: -6px -4px 6px -3px rgba(0, 0, 0, 0.7) inset, 
+    6px 4px 6px -3px rgba(255, 255, 255, 0.7) inset;
 }
 
 li:hover {
@@ -131,6 +133,8 @@ td {
     font-weight: 500;
     color: black;
     background-color: rgba(214, 199, 174, 0.2);
+    box-shadow: -6px -4px 6px -3px rgba(0, 0, 0, 0.7) inset, 
+    6px 4px 6px -3px rgba(255, 255, 255, 0.7) inset;
 }
 
 tr:nth-child(even) {
